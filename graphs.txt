@@ -1,0 +1,146 @@
+digraph nice {
+    size="6,6";
+    node [color=lightblue2, style=filled];
+    "II" -> "MM";
+    "II" -> "CC";
+    "II" -> "KK";
+    "II" -> "JJ";
+    "II" -> "HH";
+    "HH" -> "F";
+    "HH" -> "H";
+    "HH" -> "GG";
+    "H" -> "T";
+    "GG" -> "Y";
+    "GG" -> "EE";
+    "GG" -> "AA";
+    "GG" -> "LL";
+    "GG" -> "FF";
+    "EE" -> "AA";
+    "T" -> "DD";
+    "CC" -> "BB";
+    "BB" -> "V";
+    "V" -> "AA";
+    "V" -> "Z";
+    "Y" -> "X";
+    "X" -> "W";
+    "W" -> "U";
+    "U" -> "R";
+    "U" -> "V";
+    "U" -> "T";
+    "R" -> "S";
+    "R" -> "Q";
+    "P" -> "O";
+    "P" -> "N";
+    "O" -> "H";
+    "N" -> "M";
+    "N" -> "J";
+    "M" -> "L";
+    "L" -> "D";
+    "D" -> "E";
+    "D" -> "K";
+    "J" -> "I";
+    "I" -> "F";
+    "H" -> "F";
+    "G" -> "F";
+    "F" -> "C";
+    "E" -> "C";
+    "D" -> "C";
+    "C" -> "B";
+    "B" -> "A";
+  }
+  
+  
+digraph hostile {
+    size="6,6";
+    node [color=lightblue2, style=filled];
+    "II" -> "MM";
+    "II" -> "CC";
+    "II" -> "KK";
+    "II" -> "JJ";
+    "II" -> "HH";
+    "HH" -> "F";
+    "HH" -> "H";
+    "HH" -> "GG";
+    "H" -> "T";
+    "GG" -> "Y";
+    "GG" -> "EE";
+    "GG" -> "AA";
+    "GG" -> "LL";
+    "GG" -> "FF";
+    "EE" -> "AA";
+    "T" -> "DD";
+    "CC" -> "BB";
+    "BB" -> "V";
+    "V" -> "AA";
+    "V" -> "Z";
+    "Y" -> "X";
+    "X" -> "W";
+    "W" -> "U";
+    "U" -> "R";
+    "U" -> "V";
+    "U" -> "T";
+    "R" -> "S";
+    "R" -> "Q";
+    "P" -> "O";
+    "P" -> "N";
+    "O" -> "H";
+    "N" -> "M";
+    "N" -> "J";
+    "M" -> "L";
+    "L" -> "D";
+    "D" -> "E";
+    "D" -> "K";
+    "J" -> "I";
+    "I" -> "F";
+    "H" -> "F";
+    "G" -> "F";
+    "F" -> "C";
+    "E" -> "C";
+    "D" -> "C";
+    "C" -> "B";
+    "B" -> "A";
+        node [color=red, style=filled];
+    "DD"
+    node [color=pink style=filled];
+    "T","H",HH,II,O,P,U,W,X,Y,GG
+    }
+    
+    
+digraph license {
+    size="6,6";
+    node [color=lightblue2, style=filled];
+    "AFL" -> "ASF"
+    "AGPL" -> "GPLv3"
+    "ASF" -> "AFL"
+    "ASF" -> "GPLv3"
+    "BSD 2-clause" -> "ASF"
+    "BSD 2-clause" -> "GPL"
+    "BSD 3-clause" -> "ASF"
+    "BSD 3-clause" -> "GPL"
+    "BSD 3-clause" -> "GPLv3"
+    "BSD 4-clause"
+    "CC-0" ->"ASF"
+    "CC-0" ->"GPLv3"
+    "CC-By-SA v4" -> "GPLv3"
+    "CDL"
+    "CDDL" -> "GPLv3"
+    "EPL"
+    "GDFL"
+    "GPLv1"
+    "GPLv2"
+    "GPLv3"
+    "GPLv4"
+    "JSON"
+    "LGPL" -> "GPLv3"
+    "MIT" -> "ASF"
+    "MIT" -> "GPL"
+    "MPL 1.1"
+    "MPL 2.0" -> "GPLv1"
+    "MPL 2.0" -> "GPLv2"
+    "MPL 2.0" -> "GPLv3"
+    "MPL 2.0" -> "GPLv4"
+    "GPLv3" -> "GPLv1"
+    "GPLv4" -> "GPLv1"
+    "LGPL" -> "GPL"
+  }
+      
